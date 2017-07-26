@@ -7,7 +7,6 @@ for p in plaincode:
 		print(p,end='')
 
 
-
 #解密程序
 print("\n")
 ciphertext = input("请输入密文：")
