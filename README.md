@@ -1,1 +1,1 @@
-# Learn-Python
+# Life is short. You need Python.
