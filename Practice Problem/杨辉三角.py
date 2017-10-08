@@ -4,14 +4,12 @@ def triangles(n):
 	row = []
 	if n == 1:
 		row = [1]
-		return row
 	elif n == 2:
 		row = [1,1]
-		return row
 	else:
 		temp = triangles(n-1)
 		row = [1]+[temp[i]+temp[i+1] for i in range(len(temp)-1)]+[1]
-		return row
+	return row
 
 for i in range(1,11):
 	print(triangles(i))
