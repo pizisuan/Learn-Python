@@ -4,3 +4,4 @@ def hello_world():
 		print('love')
 
 hello_world()
+hello_world()
