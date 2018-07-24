@@ -1,6 +1,6 @@
-def say_hello():
-    print('hello world')
+def hello_world():
+	print('hello,world')
+	for i in range(3):
+		print('love')
 
-
-say_hello()
-say_hello()
+hello_world()
